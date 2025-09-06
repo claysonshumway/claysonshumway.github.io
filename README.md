@@ -1,6 +1,7 @@
 # Clayson Shumway
 
-![me](images/me.jpeg)
+<img src="images/me.jpeg" alt="profile" width="200">
+
 ## Bio
 I am an applied microeconomist specializing in environmental economics. I research the causes and effects of air pollution and extreme temperatures. 
 ## Education
