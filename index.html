@@ -21,6 +21,29 @@
       color: #111;
     }
 
+    /* White boxes */
+.box {
+  background: white;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.box h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem; /* slightly larger than body text */
+  color: #000;        /* black */
+}
+
+.box p {
+  margin: 0;
+  color: #555;        /* gray text */
+  line-height: 1.5;
+}
+
+
     /* Decorative bars */
     .top-bar {
       position: fixed;
@@ -83,13 +106,29 @@
 
   <main class="content" role="main">
     <div class="title-row">
-      <img src="images/me.jpeg" alt="Photo of me" class="avatar" width="500">
+      <img src="images/me.jpeg" alt="Photo of me" class="avatar" width="1500">
       <h1>Clayson Shumway</h1>
     </div>
 
-    <p>
-      Welcome! This is a starter layout. Replace this text with your content.
-    </p>
+
+    <div class="box">
+  <h2>Bio</h2>
+  <p>
+    I'm an applied microeconomist. I study environmental topics, focuing on the causes and effects of air pollution.
+    I utilize trade as a source of exogenous variation. In another life, I ran cross country and enjoyed trail running.
+    In my spare time, I run a trivia night at a local coffee shop.
+  </p>
+</div>
+
+<div class="box">
+  <h2>Working Papers</h2>
+  <p>
+    		<li style="font-size:16px;">Trade War and Ambient Air Pollution</li>
+			<li style="font-size:16px;">Clouded Thoughts: Pollution and the North Carolina State Lottery</li>
+								
+  </p>
+</div>
+
   </main>
 </body>
 </html>
