@@ -37,10 +37,16 @@
 }
 
 .box ul {
-  margin: 0;           /* remove extra margin if needed */
-  padding-left: 0; /* space for bullets */
-  list-style-position: inside;
-  color: #555;         /* gray text like body */
+  list-style-type: none;   /* remove default bullets */
+  padding-left: 1.25rem;   /* indent a little */
+}
+
+.box ul li::before {
+  content: "◆";            /* diamond */
+  color: #555;             /* same color as text */
+  display: inline-block;
+  width: 1.25rem;          /* keeps text aligned */
+  margin-left: -1.25rem;   /* shift diamond into left margin */
 }
 
 .box li {
