@@ -37,7 +37,7 @@
 }
 
 .box ul {
-  list-style-type: none;   /* remove default bullets */
+  list-style-type: square;   /* remove default bullets */
   list-style-position: inside;   /* remove default bullets */
   padding-left: 1.25rem;   /* indent a little */
 }
