@@ -166,5 +166,6 @@
   margin-left: auto;        /* auto margins on both sides */
   margin-right: auto;
   max-width: 80%;           /* scale responsively */
+  width: 800px;           /* scale responsively */
   height: auto;             /* preserve aspect ratio */
 }
