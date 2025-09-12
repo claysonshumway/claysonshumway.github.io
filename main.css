@@ -135,3 +135,40 @@
     .navbar-right {
       margin-left: auto;
     }
+
+h1 {
+  font-size: 2rem;
+  color: #000;  /* black */
+  margin-bottom: 1rem;
+}
+
+/* Each research item */
+.research-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center; /* centers link + image */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Title link */
+.research-box a {
+  display: block;
+  font-weight: bold;
+  color: red;
+  font-size: 1.25rem;
+  text-decoration: none; /* remove underline */
+  margin-bottom: 1rem;
+}
+
+.research-box a:hover {
+  text-decoration: underline; /* optional hover effect */
+}
+
+/* Image */
+.research-box img {
+  max-width: 100%;  /* responsive sizing */
+  height: auto;
+  border-radius: 8px;
+}
