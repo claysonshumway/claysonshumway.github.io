@@ -188,7 +188,7 @@ h2 {
 
 .review-text {
   font-size: 1.2rem;       /* slightly larger than body text */
-  color: #000;             /* black text */
+  color: #CC0000;             /* black text */
   margin: 0 0 0.75rem 0;   /* spacing below text */
   quotes: "“" "”" "‘" "’"; /* ensures proper quotation marks */
 }
