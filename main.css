@@ -209,6 +209,12 @@ h2 {
   text-align: right;       /* aligns author to the right */
 }
 
+.pdf-wrapper {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+}
+
+
 .pdf-frame {
   width: 1500px;
   height: 1000px;
