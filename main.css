@@ -188,7 +188,7 @@ h2 {
 
 .review-text {
   font-size: 1.2rem;       /* slightly larger than body text */
-  color: #CC0000;             /* black text */
+  color: #CC0000;            
   margin: 0 0 0.75rem 0;   /* spacing below text */
   quotes: "“" "”" "‘" "’"; /* ensures proper quotation marks */
 }
@@ -208,3 +208,12 @@ h2 {
   margin: 0;
   text-align: right;       /* aligns author to the right */
 }
+
+.pdf-frame {
+  width: 100%;
+  border: none;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
