@@ -178,6 +178,8 @@ h2 {
 
 .review-box {
   background: #fff;
+  text-align: center; /* centers inline content, but not needed if we use auto margins */
+
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
