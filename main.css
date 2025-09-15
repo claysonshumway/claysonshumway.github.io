@@ -230,3 +230,24 @@ h2 {
   border-radius: 8px;
 }
 
+.pdf-card {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.pdf-thumb {
+  max-width: 200px;
+  margin-bottom: 0.5rem;
+}
+.pdf-title {
+  display: block;
+  font-weight: bold;
+  color: #b30000;
+  text-decoration: none;
+}
+.pdf-title:hover {
+  text-decoration: underline;
+}
+
+
+
+
