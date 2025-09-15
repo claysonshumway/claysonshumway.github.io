@@ -235,7 +235,7 @@ h2 {
   margin: 1.5rem 0;
 }
 .pdf-thumb {
-  max-width: 200px;
+  min-width: 80%;
   margin-bottom: 0.5rem;
 }
 .pdf-title {
