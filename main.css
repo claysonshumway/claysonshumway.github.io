@@ -262,8 +262,11 @@ h2 {
   transition: max-height 0.3s ease-out;
   background: #f9f9f9;
   padding: 0 15px;
+  text-align: left;
+
   border-radius: 6px;
 }
+
 
 
 
