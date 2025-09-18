@@ -85,7 +85,7 @@
 
 
 <script>
-  document.querySelectorAll(".accordion-btn").forEach(button => {
+  document.querySelectorAll(".accordion-text").forEach(button => {
     button.addEventListener("click", () => {
       const panel = button.nextElementSibling;
       panel.style.maxHeight = panel.style.maxHeight ? null : panel.scrollHeight + "px";
