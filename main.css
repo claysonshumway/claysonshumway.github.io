@@ -249,6 +249,28 @@ h2 {
   text-decoration: underline;
 }
 
+.accordion-btn {
+  background: #CC0000;   /* red button */
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.accordion-panel {
+  max-height: 0;          /* hidden by default */
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background: #f9f9f9;
+  padding: 0 15px;
+  border-radius: 6px;
+}
 
 
 
