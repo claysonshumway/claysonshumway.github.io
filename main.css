@@ -139,6 +139,8 @@
 /* Each research item */
 .research-box {
   background: #fff;
+    max-width: 80%;           /* scale responsively */
+  min-width: 60%; 
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 2rem;
@@ -165,8 +167,8 @@
   display: block;           /* makes image a block element */
   margin-left: auto;        /* auto margins on both sides */
   margin-right: auto;
-  max-width: 60%;           /* scale responsively */
-  min-width: 40%;           /* scale responsively */
+  max-width: 80%;           /* scale responsively */
+  min-width: 60%;           /* scale responsively */
   height: auto;             /* preserve aspect ratio */
 }
 
