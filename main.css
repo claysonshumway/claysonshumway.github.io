@@ -165,8 +165,8 @@
   display: block;           /* makes image a block element */
   margin-left: auto;        /* auto margins on both sides */
   margin-right: auto;
-  max-width: 80%;           /* scale responsively */
-  min-width: 60%;           /* scale responsively */
+  max-width: 60%;           /* scale responsively */
+  min-width: 40%;           /* scale responsively */
   height: auto;             /* preserve aspect ratio */
 }
 
