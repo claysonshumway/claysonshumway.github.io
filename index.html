@@ -79,5 +79,16 @@
 </div>
 
   </main>
+
+<script>
+  document.querySelectorAll(".accordion-btn").forEach(button => {
+    button.addEventListener("click", () => {
+      const panel = button.nextElementSibling;
+      panel.style.maxHeight = panel.style.maxHeight ? null : panel.scrollHeight + "px";
+    });
+  });
+</script>
+
+
 </body>
 </html>
