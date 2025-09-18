@@ -92,7 +92,7 @@
       line-height: 1.1;
     }
     .avatar {
-      width: min(1000px, 50vw);
+      width: min(500px, 50vw);
       height: auto;
       border-radius: 8px;
       display: block;
