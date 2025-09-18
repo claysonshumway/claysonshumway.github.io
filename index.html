@@ -38,16 +38,6 @@
   </p>
 </div>
 
-<div class="accordion">
-  <button class="accordion-btn">Read More</button>
-  <div class="accordion-panel">
-    <p>
-      This text is hidden until you click “Read More.”  
-      You can put paragraphs, links, images, even PDFs here.
-    </p>
-  </div>
-</div>
-
 
 <div class="box">
   <h2>Education</h2>
@@ -80,14 +70,7 @@
 
   </main>
 
-<script>
-  document.querySelectorAll(".accordion-btn").forEach(button => {
-    button.addEventListener("click", () => {
-      const panel = button.nextElementSibling;
-      panel.style.maxHeight = panel.style.maxHeight ? null : panel.scrollHeight + "px";
-    });
-  });
-</script>
+
 
 
 </body>

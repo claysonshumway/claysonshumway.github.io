@@ -249,18 +249,11 @@ h2 {
   text-decoration: underline;
 }
 
-.accordion-btn {
-  background: #CC0000;   /* red button */
-  color: white;
+.accordion-text {
+  color: #CC0000;
   cursor: pointer;
-  padding: 10px 15px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  border-radius: 6px;
-  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 20px;
 }
 
 .accordion-panel {

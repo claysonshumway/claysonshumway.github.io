@@ -42,11 +42,23 @@
   <img src="images/tariffpoll.png" alt="tariffs" class="avatar">
 
 
+<div class="accordion">
+  <button class="accordion-text">Abstract</button>
+  <div class="accordion-panel">
+    <p>
+            I analyze the effect of the 2018 trade war on ambient levels of air quality in the United States of America.
+             Domestic tariffs placed by the US on imported foreign goods and foreign tariffs applied to US exports by other countries both impact US production,
+              which can translate into emissions. Using the EPA's Air Quality dataset, PM2.5 monitor readings, 
+              and satellite PM2.5 data, I implement a shift-share methodology to demonstrate that exposure to foreign tariffs results in a modest improvement in air quality,
+               with null results for exposure to domestic tariffs.
+             I provide insight and empirical evidence on the existence and magnitude of pollution haven effects.
+    </p>
+  </div>
+</div>
+
 </div>
 
   <h2>Publications</h2>
-
-
 <div class="research-box">
   <a href="https://www.sciencedirect.com/science/article/pii/S0047272721002097" target="_blank">
     “Workplace disruptions, judge caseloads, and judge decisions: Evidence from SSA judicial corps retirements," 
@@ -70,5 +82,16 @@
 </div>
 
   </main>
+
+
+<script>
+  document.querySelectorAll(".accordion-btn").forEach(button => {
+    button.addEventListener("click", () => {
+      const panel = button.nextElementSibling;
+      panel.style.maxHeight = panel.style.maxHeight ? null : panel.scrollHeight + "px";
+    });
+  });
+</script>
+
 </body>
 </html>
