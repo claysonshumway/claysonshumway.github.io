@@ -90,6 +90,7 @@
       flex-wrap: wrap;
       margin-bottom: 2rem;
       max-width: 75vw;
+      margin:auto;
     }
     h1 {
       margin: 0;
@@ -177,6 +178,20 @@
   max-width: 80%;           /* scale responsively */
   min-width: 60%;           /* scale responsively */
   height: auto;             /* preserve aspect ratio */
+}
+
+.research-authors {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Journal info */
+.research-journal {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+  color: #666;          /* gray, subtle */
+  font-style: italic;
 }
 
 h2 {
