@@ -179,9 +179,9 @@
 }
 
 h2 {
-  font-size: 2rem;
-  color: #000;
-  margin-bottom: 1rem;
+  max-width: 75vw;
+  margin: 2rem auto 1rem; /* auto centers it */
+  text-align: center;
 }
 
 .review-box {
