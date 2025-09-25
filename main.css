@@ -20,7 +20,8 @@
 
   max-width: 75vw;           /* scale responsively */
   margin: 0 auto 2rem;
-  min-width: 30vw; 
+  min-width: 30vw;
+  text-align: left;
   border-radius: 12px;
   padding: 1.25rem;
   margin-bottom: 1.5rem;
